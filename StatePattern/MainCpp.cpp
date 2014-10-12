@@ -8,4 +8,5 @@ int main(void)
 	pContext->Handle("test");
 	pContext->Handle("test");
 	delete pContext;
+	return 1;
 }
